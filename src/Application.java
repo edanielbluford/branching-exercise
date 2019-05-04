@@ -1,12 +1,8 @@
-import java.util.Scanner;
-
 public class Application {
 
 	public static void main(String[] args) {
 		
-		Scanner input = new Scanner(System.in);
-		
-		int mySiblings = input.nextInt();
+		;
 		
 		String retirementHome;		//Retirement homes are generic and need to be updated to user specs
 		if (mySiblings == 0) { retirementHome = "Home 0"; }
@@ -15,5 +11,4 @@ public class Application {
 		else if (mySiblings == 2) { retirementHome = "Home 3";}
 		else if (mySiblings > 3) { retirementHome = "Home more than 3";}
 		else  { retirementHome = "Home minus";}
-		System.out.println(retirementHome);
 }}
