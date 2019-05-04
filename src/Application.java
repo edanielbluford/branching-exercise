@@ -1,8 +1,10 @@
+import java.util.Scanner;
 
 import java.util.Scanner;
 public class Application {
 
 	public static void main(String[] args) {
+
 	
 	Scanner input = new Scanner(System.in);
 
@@ -20,4 +22,5 @@ public class Application {
 		else if (mySiblings > 3) { retirementHome = "Home more than 3";}
 		else  { retirementHome = "Home minus";}
 }}
+
 
